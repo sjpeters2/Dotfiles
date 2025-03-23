@@ -9,10 +9,16 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+# Set nvim to be the default editor
+export EDITOR=nvim
+
 alias ff='fastfetch'
 
 alias vim='nvim'
 
 
 . "$HOME/.cargo/env" # Added by Rust
+
+# Alias for managing the Dotfile Bare repo
 alias addDotfile='/usr/bin/git --git-dir=/home/shane/Dotfiles/ --work-tree=/home/shane' 
+alias pushDofiles='git --git-dir=$HOME/Dotfiles/ --work-tree=$HOME push -u origin master'
