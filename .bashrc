@@ -12,9 +12,10 @@ PS1='[\u@\h \W]\$ '
 # Set nvim to be the default editor
 export EDITOR=nvim
 
+# Set Custom Aliases Here
 alias ff='fastfetch'
-
 alias vim='nvim'
+alias yz='yazi'
 
 
 . "$HOME/.cargo/env" # Added by Rust
