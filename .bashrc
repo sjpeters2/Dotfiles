@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+alias ls='ls -C --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
@@ -16,6 +16,7 @@ export EDITOR=nvim
 alias ff='fastfetch'
 alias vim='nvim'
 alias yz='yazi'
+alias spotifycli='spotify_player'
 
 # When using yazi this will change the pwd on exit
 function y() {

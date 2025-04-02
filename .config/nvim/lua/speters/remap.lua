@@ -12,3 +12,6 @@ end, { desc = "Toggle comment" })
 
 vim.keymap.set("v", "<leader>/", "<Plug>(comment_toggle_linewise_visual)")
 
+-- map to wiki
+vim.g.wiki_root = vim.fn.expand('~/Documents/wiki')
+
