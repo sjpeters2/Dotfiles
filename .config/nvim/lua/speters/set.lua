@@ -19,3 +19,8 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 
 vim.opt.updatetime = 50
+
+vim.diagnostic.config({
+  virtual_text = true,
+})
+
