@@ -30,8 +30,7 @@ function y() {
 . "$HOME/.cargo/env" # Added by Rust
 
 # Alias for managing the Dotfile Bare repo
-alias addDotfile='/usr/bin/git --git-dir=/home/shane/Dotfiles/ --work-tree=/home/shane' 
-alias pushDotfiles='git --git-dir=$HOME/Dotfiles/ --work-tree=$HOME push -u origin master'
+alias dotfile='/usr/bin/git --git-dir=/home/shane/Dotfiles/ --work-tree=/home/shane' 
 
 
 eval "$(starship init bash)"
